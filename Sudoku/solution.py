@@ -8,6 +8,7 @@ def cross(A, B):
     "Cross product of elements in A and elements in B."
     return [s+t for s in A for t in B]
 
+# prepare the game
 
 boxes = cross(rows, cols)
 
@@ -191,6 +192,10 @@ def solve(grid):
     
 if __name__ == '__main__':
     diag_sudoku_grid = '2.............62....1....7...6..8...3...9...7...6..4...4....8....52.............3'
+    print ('Initial Setup:')
+    display(grid_values(diag_sudoku_grid))
+    print
+    print ('Solution:')
     display(solve(diag_sudoku_grid))
 
     try:
