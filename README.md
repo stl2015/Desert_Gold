@@ -20,3 +20,6 @@ This project solved deterministic logistics planning problems for an Air Cargo t
 
 Implemented two extensions of sudoku solver. Practice: constrain satisfaction propagation.
 
+### Recurrent Neural Networks course project
+
+single time series prediction and text generation

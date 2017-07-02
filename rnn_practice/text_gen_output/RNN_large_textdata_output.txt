@@ -1,0 +1,15 @@
+-------------------
+input chars = 
+ and two months older than myself   and your mother is alive   oh yes mother is alive and well i was"
+predicted chars = 
+ nettently contining and that her it was a strang sat on the conners and han shereckent the into my "
+-------------------
+input chars = 
+arly fifteen years younger than herself father was a plumber in the tottenham court road and he left"
+predicted chars = 
+ the door of the man should be a shall be and to the think of the some of the passion a dour the the"
+-------------------
+input chars = 
+came he made her sell the business for he was very superior being a traveller in wines they got   po"
+predicted chars = 
+unds   a mest man   it is a long man a tord with him his hand and her the caured of the door of the "
