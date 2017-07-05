@@ -23,3 +23,7 @@ Implemented two extensions of sudoku solver. Practice: constrain satisfaction pr
 ### Recurrent Neural Networks course project
 
 single time series prediction and text generation
+
+### Convolutional Neural Networks course project
+
+Given an image of a dog, built CNN model to identify an estimate of the breed.
