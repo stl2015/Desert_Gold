@@ -8,11 +8,11 @@ Built a system that can recognize words communicated using the American Sign Lan
 
 In addition, incorporated Statistical Language Models (SLMs) that capture the conditional probability of particular sequences of words occurring. HMM + SLM were implemented in Viterbi like algorithm.
 
-### Build A Game-Playing Agent (Isolation Game)
+### Isolation Game
 
 Built a Game-Playing agent that defeats opponents in Isolation. Learned about advanced Game-Playing techniques such as Minimax, Iterative Deepening, and Alpha-Beta Pruning.
 
-### Planning Search
+### Planning
 
 This project solved deterministic logistics planning problems for an Air Cargo transport system using a planning search agent. With progression search algorithms, optimal plans for each problem will be computed.  Unlike the navigation problem, there is no simple distance heuristic to aid the agent. 
 
@@ -20,10 +20,10 @@ This project solved deterministic logistics planning problems for an Air Cargo t
 
 Implemented two extensions of sudoku solver. Practice: constrain satisfaction propagation.
 
-### Recurrent Neural Networks course project
+### RNN Practice (Recurrent Neural Networks)
 
 single time series prediction and text generation
 
-### Convolutional Neural Networks course project
+### CNN Practice (Convolutional Neural Networks)
 
 Given an image of a dog, built CNN model to identify an estimate of the breed.
