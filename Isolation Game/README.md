@@ -13,22 +13,24 @@ Additionally, agents will have a fixed time limit each turn to search for the be
 For the max layer -
 Test if search depth is zero: if yes, return score function from the point view of current player. Pre-assign the current value so that any thing is greater than it.
 Loop through game's available subsequent moves from current player:
-a) apply the move and create the next min layer with (search depth -1), update current maximum value if it is less than next value;
-b) pruning: if current maximum is greater than or equal to beta – the upper bound of search on max layer, then return current maximum.
-c) update alpha if it is less than current maximum.
+
+* a) apply the move and create the next min layer with (search depth -1), update current maximum value if it is less than next value;
+* b) pruning: if current maximum is greater than or equal to beta – the upper bound of search on max layer, then return current maximum.
+* c) update alpha if it is less than current maximum.
 Return current maximum.
 
 For the min layer -
 Test if search depth is zero: if yes, return score function from the point view of current player. Pre-assign the current value so that any thing is less than it. Loop through game's available subsequent moves from current player:
-a) apply the move and create the next max layer with (search depth -1), update current minimum value if it is greater than next value;
-b) pruning: if current minimum is less than or equal to alpha – the lower bound of search on min layer, then return current minimum.
-c) update beta if it is greater than current minimum.
+
+* a) apply the move and create the next max layer with (search depth -1), update current minimum value if it is greater than next value;
+* b) pruning: if current minimum is less than or equal to alpha – the lower bound of search on min layer, then return current minimum.
+* c) update beta if it is greater than current minimum.
 Return current minimum.
 
 4. Custom score function
 
-a) (number of legal moves for current player – number of legal moves for its opponent)* number of filled spaces*0.5. It favors more moves for current player than its opponent. In addition, it favors more search into deeper depth.
-b) (number of legal moves for current player – number of legal moves for its opponent)* number of filled spaces. Similar to 1), but has a higher weight of favoring search depth.
-c) Using (number of legal moves for current player – number of legal moves for its opponent) at first, then in later stage of game – 80% of board is filled, use (number of legal moves for current player). It is a slightly more conservative version of AB_Improved.
+* a) (number of legal moves for current player – number of legal moves for its opponent)* number of filled spaces*0.5. It favors more moves for current player than its opponent. In addition, it favors more search into deeper depth.
+* b) (number of legal moves for current player – number of legal moves for its opponent)* number of filled spaces. Similar to 1), but has a higher weight of favoring search depth.
+* c) Using (number of legal moves for current player – number of legal moves for its opponent) at first, then in later stage of game – 80% of board is filled, use (number of legal moves for current player). It is a slightly more conservative version of AB_Improved.
 
 5. Match result: Custom a) score function has the highest win rate (~60%) against all other agents. The reason is that it not only favors large difference between legal moves of player and its opponent, it also encourage explore searching into deeper trees. In term of complexity, it counts moves for player and opponent, as well as the filled spaces on the board. It is still order (size of board positions).
