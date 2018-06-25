@@ -6,7 +6,7 @@ Here are the projects I finished for Udacity AI Nanodegree.
 
 Built a system that can recognize words communicated using the American Sign Language (ASL). Trained a set of Hidden Markov Models (HMMs) using part of this dataset to try and identify individual words from test sequences.
 
-In addition, incorporated Statistical Language Models (SLMs) that capture the conditional probability of particular sequences of words occurring. HMM + SLM were implemented in Viterbi like algorithm.
+In addition, incorporated Statistical Language Models (SLMs) that capture the conditional probability of particular sequences of words occurring. HMM + SLM were implemented in Viterbi like algorithm. 
 
 ### Isolation Game
 
@@ -26,4 +26,4 @@ single time series prediction and text generation
 
 ### CNN Practice (Convolutional Neural Networks)
 
-Given an image of a dog, built CNN model to identify an estimate of the breed.
+Given an image of a dog, built CNN model to identify an estimate of the breed. 
