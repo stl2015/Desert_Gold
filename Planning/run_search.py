@@ -117,7 +117,7 @@ if __name__=="__main__":
     parser.add_argument('-s', '--searches', nargs="+", choices=range(1, len(SEARCHES)+1), type=int, metavar='',
                         help="Specify the indices of the search algorithms to use as a list of space separated values. Choose from: {!s}".format(list(range(1, len(SEARCHES)+1))))
     args = parser.parse_args()
-
+ 
     if args.manual:
         manual()
     elif args.problems and args.searches:
