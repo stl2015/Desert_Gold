@@ -1,7 +1,7 @@
 rows = 'ABCDEFGHI'
 cols = '123456789'
 
-icols = cols[::-1]
+icols = cols[::-1] 
 
 
 def cross(A, B):
