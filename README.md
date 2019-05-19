@@ -1,6 +1,3 @@
-# Udacity Artificial Intelligence Nanodegree Projects
-
-Here are the projects I finished for Udacity AI Nanodegree.
 
 ### American Sign Language Recognizer (probabilistic model)
 
