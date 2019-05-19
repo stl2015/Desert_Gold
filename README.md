@@ -1,3 +1,4 @@
+# Projects for Udacity artificial intelligence Degree
 
 ### American Sign Language Recognizer (probabilistic model)
 
